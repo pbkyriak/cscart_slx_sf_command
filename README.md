@@ -26,7 +26,7 @@ You can execute your commands using console.php script found in your shop's root
 The script bootstraps cs-cart and in your commands you have access to all cs-cart functions and classes just like in a controller script. 
 
 Example command
-
+```php
 <?php
 
 namespace Slx\Command;
@@ -66,3 +66,4 @@ class TestACommand extends Command {
     }
 
 }
+```
