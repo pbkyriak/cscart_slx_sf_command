@@ -5,11 +5,11 @@ Symfony components console and finder must be added to your cs-cart installation
 Since version 4.3.4 console is already installed by finder is not.
 
 To add composer requirements to cscart do:
-
+```bash
 cd app/lib
 composer require symfony/console
 composer require symfony/finder
-
+```
 supposing that composer is installed in your system already.
 Install and enable the addon and you can add symfony like commands to any of your addons. 
 
