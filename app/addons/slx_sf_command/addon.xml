@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>slx_sf_command</id>
+    <name>Symfony command bridge</name>
+    <version>1.0</version>
+    <priority>500</priority>
+    <position>0</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <compatibility>
+        <core_version>
+            <min>4.2.4</min>
+        </core_version>
+    </compatibility>
+    <authors>
+        <author>
+            <name>Salix.gr</name>
+            <email>panos@salix.gr</email>
+            <url>http://salix.gr</url>
+        </author>
+        <author>
+            <name>Weblive</name>
+            <email>an@weblive.gr</email>
+            <url>http://weblive.gr</url>
+            <phone>+30 210 25 19 282</phone>
+        </author>
+    </authors>
+    <description>Registers symfony commands defined in any addon.</description>
+</addon>
